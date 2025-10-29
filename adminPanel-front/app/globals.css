@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Fonts */
+:root {
+  font-family: "Urbanist", sans-serif;
+  font-style: normal;
+  background-color: white;
+  padding-right: 0;
+}
+
+/* 
+reset 
+"inset-ring-3 inset-ring-[#FF3EA5] bg-white text-black border-none rounded shadow-md shadow-[#FF3EA5]-500/50 hover:bg-[#FF3EA5] hover:inset-ring-0 hover:text-black hover:shadow-xl hover:scale-110 transition duration-300"
+
+cancel
+inset-ring-3 inset-ring-stone-600 bg-white text-black border-none shadow-stone-500/50 hover:bg-stone-600 hover:inset-ring-0 hover:text-black  hover:scale-110 transition duration-300 h-[30px] w-[65px] rounded-[7px] shadow-none"
+*/
+
+/* Fixed Header + Breadcrumbs */
+
+/* <div className="fixed ml-[35.5px] top-[95px] left-[260px] right-[1px] z-50 bg-white">
+        <div className="ml-[45px] mt-[25px] ">
+          
+          <Breadcrumbs nameMap={nameMap} />
+        </div>
+      </div>   ✕     */
