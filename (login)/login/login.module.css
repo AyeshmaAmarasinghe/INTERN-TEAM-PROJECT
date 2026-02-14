@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #EFFCFF;
+}
+
+/* White card box */
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.05);
+  width: 700px;
+  height: 575px; /* ❌ fixed spacing bug */
+  text-align: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.card h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.inputGray {
+  width: 429px;
+  height: 52px;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 2px;
+  border: none;
+  background-color: #e9eff1;
+  font-size: 14px;
+}
+
+/* Checkbox + Forgot password in same line */
+.options {
+  display: flex;
+  justify-content: space-between; /* pushes them apart */
+  align-items: center;            /* keeps them aligned */
+  font-size: 14px;
+  margin: 8px auto 20px;
+  width: 429px; 
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* little space between checkbox & text */
+  cursor: pointer;         /* cursor turns into hand on hover */
+  color: #333;
+  font-size: 14px;
+  /* user-select: none; */
+}
+
+.remember input[type="checkbox"]{
+  width: 16px;             /* slightly bigger box */
+  height: 16px;
+  accent-color: #007bff;   /* ✅ modern browsers → blue checkbox */
+  cursor: pointer;
+}
+
+/* Style for Forgot Password link */
+.options a {
+  text-decoration: none;
+  color: #007bff; /* blue like a link */
+  font-weight: 500;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+/* Login button */
+.loginBtn {
+  background-color: #63BDFF;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 18px;
+  width: 429px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  background-color: #4584B3;
+}
+
+/* Title text */
+.textLable { /* ✅ must match exactly with TSX */
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
